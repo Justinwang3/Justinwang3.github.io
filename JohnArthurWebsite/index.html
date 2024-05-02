@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>John Arthur Cafe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="hero">
+    <img src="images/JohnArthurLogo.png" alt="John Arthur Logo" class="logo">
+</section>
+	
+<section id="banner">
+    <img src="images/banner-image-20.jpg" alt="Enjoy Our Special Blend" style="width:100%;">
+</section>
+	
+<section id="featured-items">
+    <div class="item">
+        <img src="images/JohnArthurCup2.jpg" alt="Cafe Latte">
+        <h3>Cafe Latte</h3>
+		<p>An aromatic blend of our most notable blend of beans</p>
+    </div>
+    <div class="item">
+        <img src="images/JohnArthurCup2.jpg" alt="Red Velvet">
+        <h3>Red Velvet</h3>
+		<p>A sweet treat that combines the flavors of mocha and velvet</p>
+    </div>
+    <div class="item">
+        <img src="images/JohnArthurCup2.jpg" alt="Mochacino">
+        <h3>Mochacino</h3>
+		<p>A dessert in a cup made with our personal blend of mocha</p>
+    </div>
+</section>
+
+<section id="gallery" class="section-padding">
+    <p>Take a look at our cozy cafe and delicious offerings</p>
+    <div class="photo-grid">
+        <div class="photo-item">
+            <img src="images/JohnArthurSign.jpg" alt="Description of Image">
+        </div>
+		<div class="photo-item">
+            <img src="images/JohnArthurCup.jpg" alt="Description of Image">
+        </div>
+		<div class="photo-item">
+            <img src="images/JohnArthurCup2.jpg" alt="Description of Image">
+        </div>
+		<div class="photo-item">
+            <img src="images/JohnArthurhat.jpg" alt="Description of Image">
+        </div>
+		<div class="photo-item">
+            <img src="images/JohnArthurStationary1.jpg" alt="Description of Image">
+        </div>
+		<div class="photo-item">
+            <img src="images/JohnArthurBag.jpg" alt="Description of Image">
+        </div>
+		<div class="photo-item">
+            <img src="images/JohnArthurSmallMenu.jpg" alt="Description of Image">
+        </div>
+		<div class="photo-item">
+            <img src="images/JohnArthurBigMenu.jpg" alt="Description of Image">
+        </div>
+		<div class="photo-item">
+            <img src="images/JohnArthurApron.jpg" alt="Description of Image">
+        </div>
+		<div class="photo-item">
+            <img src="images/JohnArthurMug2.jpg" alt="Description of Image">
+        </div>
+    </div>
+</section>
+
+<main id="contact-content">
+    <h1>Contact Us</h1>
+    <p>Have questions or need to make a reservation? Drop us a line!</p>
+    <form action="submit_form.php" method="POST" class="contact-form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2024 John Arthur Cafe</p>
+</footer>
+
+</body>
+</html>
